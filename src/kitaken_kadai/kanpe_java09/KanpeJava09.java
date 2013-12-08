@@ -3,12 +3,13 @@ package kitaken_kadai.kanpe_java09;
 public class KanpeJava09 {
 
 	public static void main(String[] args) {
-		int x=2;
-		int y=3;
-		System.out.println(getMax(x,y));
+		KanpeJava09 hoge = new KanpeJava09(); 
+		int x=10;
+		int y=20;
+		System.out.println(hoge.getMax(x,y));
 	}
 
-	public static int getMax(int a, int b) {
+	int getMax(int a, int b) {
 		if(a > b)
 			return a;
 		else if(b > a)
