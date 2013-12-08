@@ -1,6 +1,6 @@
 package kitaken_kadai.kanpe_java04;
 
-public class Kanpe_java04 {
+public class KanpeJava04 {
 
 	public static void main (String[] args){
 
