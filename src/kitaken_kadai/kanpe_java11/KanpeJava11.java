@@ -19,11 +19,12 @@ public class KanpeJava11 {
 			} else {
 				return b;
 			}
-		}
-		else
-			if (b > c)
+		} else {
+			if (b > c) {
 				return b;
-			else
+			} else {
 				return c;
+			}
+		}
 	}
 }
