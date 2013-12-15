@@ -4,17 +4,16 @@ public class KanpeJava10 {
 
 	public static void main(String[] args) {
 		KanpeJava10 hoge = new KanpeJava10(); 
-		int x=10;
-		int y=20;
+		int x = 10;
+		int y = 20;
 		System.out.println(hoge.getMin(x,y));
 	}
 
 	int getMin(int a, int b) {
-		if(a < b)
+		if (a < b) {
 			return a;
-		else if(b < a)
+		} else {
 			return b;
-		else
-			return a;
+		}
 	}
 }
