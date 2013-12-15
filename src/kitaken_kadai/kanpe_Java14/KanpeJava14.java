@@ -1,4 +1,4 @@
-package kitaken_kadai.kanpe14;
+package kitaken_kadai.kanpe_Java14;
 
 public class KanpeJava14 {
 
